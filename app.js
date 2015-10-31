@@ -27,7 +27,7 @@ app.use('/', routes);
 app.use('/test/:p', function (req, res, next){
   var p = req.params.p;
 
-  console.log('console in USA ', p);
+  console.log('console in EU ', p);
 
   res.status(200).send('123');
 });
